@@ -1,0 +1,3 @@
+business layer (backend) -> tarık
+database layer (backend) -> emir
+presentation layer (frontend) -> emir 
