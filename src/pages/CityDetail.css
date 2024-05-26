@@ -1,0 +1,33 @@
+.container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .card {
+    max-width: 1000px; /* Genişliği artırdık */
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .map-container {
+    height: 400px;
+    margin-bottom: 20px;
+  }
+  
+  .typography-title {
+    margin-bottom: 20px;
+  }
+  
+  .typography-content {
+    margin-bottom: 10px;
+    font-size: 1.2em; /* Yazı boyutunu artırdık */
+  }
+  
+  .circular-progress {
+    margin-top: 20px;
+  }
+  
+  .alert {
+    margin-top: 20px;
+  }
