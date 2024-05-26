@@ -30,7 +30,7 @@ const HomePage = () => {
 
       // Check if the city is already registered
 
-      const checkResponse = await axios.get(`http://localhost:8090/api/cities/${city}`, {
+      const checkResponse = await axios.get(`http://localhost:8080/api/cities/${city}`, {
 
         headers: {
 
@@ -52,15 +52,14 @@ const HomePage = () => {
 
         // If city is not registered, register it first
 
-        await axios.post('http://localhost:8090/api/cities', { name: city });
+        await axios.post('http://localhost:8080/api/cities', { name: city });
 
         alert('City registered successfully!');
 
         
 
         // Fetch weather data
-
-        const response = await axios.get(`http://localhost:8090/api/cities/${city}`, {
+        const response = await axios.get(`http://localhost:8080/api/cities/${city}`, {
 
           headers: {
 

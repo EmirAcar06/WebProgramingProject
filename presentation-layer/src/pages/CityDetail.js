@@ -51,7 +51,7 @@ const CityDetail = () => {
       setLoading(true);
       setError(null);
       try {
-        const response = await axios.get(`http://localhost:8090/api/cities/${city}`, {
+        const response = await axios.get(`http://localhost:8080/api/cities/${city}`, {
           headers: {
             'accept': '*/*'
           }
